@@ -1,3 +1,3 @@
-window.alert('minha primeira mensagem')
-window.confirm('está gostando do JS?')
-window.prompt('qual seu nome?')
+window.alert('minha primeira mensagem') //manda um alerta
+window.confirm('está gostando do JS?') //janela de confirmação
+window.prompt('qual seu nome?') //prompt com espaço de digitação
