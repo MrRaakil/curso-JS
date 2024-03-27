@@ -13,7 +13,7 @@ window:
    2-locantion
    3-history
 
-TODOS ESSES MARCADORES ACIMA SÃO CHAMADOS DE ELEMENTOS e eles podemser acessados de 5 formas:
+TODOS ESSES MARCADORES ACIMA SÃO CHAMADOS DE ELEMENTOS e eles podem ser acessados de 5 formas:
    1-marca(Tag)
       getElementsByTagName('tag a ser selecionada')[numero do seletor, caso tenha mais de um] 
       //pode ser selecionados mais de um objetor por vez.
