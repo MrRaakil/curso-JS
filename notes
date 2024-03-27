@@ -1,0 +1,46 @@
+- ARVORE DOM -
+
+Tudo fica dentro do WINDOW e ele se divide em outras partições
+
+window: 
+   1-document
+      1-html
+         1-head
+            1-meta
+            2-title
+         2-body
+            1-onde fica o corpo
+   2-locantion
+   3-history
+
+TODOS ESSES MARCADORES ACIMA SÃO CHAMADOS DE ELEMENTOS e eles podemser acessados de 5 formas:
+   1-marca(Tag)
+      getElementsByTagName('tag a ser selecionada')[numero do seletor, caso tenha mais de um] 
+      //pode ser selecionados mais de um objetor por vez.
+   2-id
+      getElementById()
+   3-nome
+      getElementsByName()[]
+   4-classe
+         getElementsByClassName()[]
+   5-selector
+         1-querySelector()
+            1-toda id é representada por um #
+            2-toda classe é representada por .
+         2-querySelectorAll()
+
+(  1-sempre que o Elements for escrito no plural, precisa colocar o colchetes depois do parenteses;
+   2-lembrando que da pra simplificar a tag window.document.getElementBy
+por apenas document.getElementBy que também vai funcionar igual.)
+
+
+comandos:
+1-document.write 
+   escreve na tela
+      1-tag.innerText
+         escreve o texto da sem as marcações, como negrito e outras coisas
+      2-tag.innerHTML 
+         escreve o texto com todas as marcações feitas
+2-window.alert
+   solta um alerta na tela
+   
