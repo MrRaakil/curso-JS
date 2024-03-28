@@ -1,4 +1,4 @@
-- ARVORE DOM -
+- ARVORE DOM - (aula 01)
 
 Tudo fica dentro do WINDOW e ele se divide em outras partições
 
@@ -42,5 +42,23 @@ comandos:
       2-tag.innerHTML 
          escreve o texto com todas as marcações feitas
 2-window.alert
-   solta um alerta na tela
-   
+   solta um alerta na tela.
+
+
+- EVENTOS DOM - (aula 02)
+
+Evento é tudo aquilo que pode acontecer com um determinado elemento. Os mais usados são os eventos de mouse, como:
+   1-mouseenter (mouse entrou na div)
+   2-mousemove (enquanto estiver movendo o mouse na div são ser disparados vários eventos)
+   3-mousedown (segurar o botão do mouse)
+   4-mouseup (soltar o botão do mouse)
+   5-click (cliclar o botão)
+   6-mouseout (mouse saiu da div)
+obs: esses são os mais usados, mas existe uma infinidade de outros  eventos 
+
+Função: é um conjunto de codigo que vão ser executadas só quando o evento ocorrer.
+   bloco: linhas de código dentro do sinal de chaves;
+      obs: pra funcionar o bloco tem que ser denominado com FUNCTION e ela deve ser nomeada de acordo com a funcionalidade dela. Não se esqueça de colocar  um par de parenteses logo após o nome da função. 
+   ouvidores: ficam prestando atenção nos eventos
+      *var.addEventListener('evento', nome do evento)
+
