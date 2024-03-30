@@ -1,0 +1,24 @@
+- CONDIÇÕES EM JAVASCRIPT -
+(aula 01)
+condições
+   são estruturas que verificam e decidem se as linhas ou blocos de um código serão verificados ou não
+      1-if (condição) = se
+      2-else (condição) = senao
+
+         if(condição) {
+            bloco verdadeiro
+         }else {
+            bloco falso
+         }
+
+tipos de condição:
+   1- condições simples
+      condição que não tem senao
+   2- condição composta
+
+
+
+
+comandos:
+   1- console.log('pra escrever no console')
+   2-var.innerHTML = 'o que vc quer falar' //escrever
