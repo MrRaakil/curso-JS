@@ -21,4 +21,4 @@ tipos de condição:
 
 comandos:
    1- console.log('pra escrever no console')
-   2-var.innerHTML = 'o que vc quer falar' //escrever
+   2- var.innerHTML = 'o que vc quer falar' //escrever
