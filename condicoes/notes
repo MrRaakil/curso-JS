@@ -13,8 +13,12 @@ condições
 
 tipos de condição:
    1- condições simples
-      condição que não tem senao
+      condição onde não existe mais de uma opção, se a condição for verdadeira ela vai executar o bloco, se não não acontece nada;
    2- condição composta
+      se for verdadeira vai executar um bloco e se for falsa vai executar outro bloco;
+   3- condições aninhadas
+      se a  condição for verdadeira, ela vai bater em outra condição... é uma condição dentro da outra; (else if)
+   4- 
 
 
 
